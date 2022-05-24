@@ -4,7 +4,7 @@ const app = express();
 const http = require(http).Server(app);
 
 app.listen('/', (req, res) => {
-    res.sendFile('index.html');
+    res.send('index.html');
 });
 
 var server = http.listen(3000, () => {
