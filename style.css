@@ -31,6 +31,13 @@ body {
     text-align: center;
 }
 
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
 p {
     margin: 16px 20%;
 }
