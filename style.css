@@ -20,7 +20,7 @@ body {
 }
 
 .announcement {
-    width: 40%;
+    width: 50%;
     margin: 10px auto;
     background: rgba(200,10,10,.25);
     border: 3px solid darkred;
@@ -44,4 +44,11 @@ p {
 
 .indent {
     text-indent: 30px; 
+}
+
+@media screen and (max-width: 100px){
+    .announcement {
+        width: 80%;
+        background: white;
+    }
 }
