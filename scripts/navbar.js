@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const NAVBAR_MENU = {
         "Home": "index.html",
         "Projects": {
-            "Coding's Crafting Tweaks": "./crafting_tweaks.html",
-            "Info Tools": "./info_tools.html",
-            "Larger Ore Veins": "./data_packs/ore_veins.html",
-            "Larger Ore Veins Deluxe": "./data_packs/ore_veins_deluxe.html",
-            "Larger Ore Veins Diamond": "./data_packs/ore_veins_diamond.html",
-            "Larger Ore Veins Nether": "./data_packs/ore_veins_nether.html"
+            "Coding's Crafting Tweaks": "./data_pack/crafting_tweaks.html",
+            "Info Tools": "./data_pack/info_tools.html",
+            "Larger Ore Veins": "./data_pack/ore_veins.html",
+            "Larger Ore Veins Deluxe": "./data_pack/ore_veins_deluxe.html",
+            "Larger Ore Veins Diamond": "./data_pack/ore_veins_diamond.html",
+            "Larger Ore Veins Nether": "./data_pack/ore_veins_nether.html"
         },
         "Feedback": "feedback.html"
     }
