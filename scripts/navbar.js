@@ -13,28 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "Feedback": "../feedback.html"
     }
 
-    
-    const PROJECTS = {
-      "crafting_tweaks": {
-        "name": "Coding's Crafting Tweaks"
-      },
-      "info_tools": {
-        "name": "Info Tools"
-      },
-      "ore_veins": {
-        "name": "Larger Ore Veins"
-      },
-      "ore_veins_deluxe": {
-        "name": "Larger Ore Veins Deluxe"
-      },
-      "ore_veins_diamond": {
-        "name": "Larger Ore Veins: Diamond"
-      },
-      "ore_veins_nether": {
-        "name": "Larger Ore Veins: Nether"
-      }
-    };
-
     const NAVBAR = document.getElementById("navbar");
 
     if (NAVBAR != null){
