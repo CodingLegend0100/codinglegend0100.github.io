@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     const NAVBAR_MENU = {
-        "Home": "index.html",
+        "Home": "../index.html",
         "Projects": {
-            "Coding's Crafting Tweaks": "./data_pack/crafting_tweaks.html",
-            "Info Tools": "./data_pack/info_tools.html",
-            "Larger Ore Veins": "./data_pack/ore_veins.html",
-            "Larger Ore Veins Deluxe": "./data_pack/ore_veins_deluxe.html",
-            "Larger Ore Veins Diamond": "./data_pack/ore_veins_diamond.html",
-            "Larger Ore Veins Nether": "./data_pack/ore_veins_nether.html"
+            "Coding's Crafting Tweaks": "../data_pack/crafting_tweaks.html",
+            "Info Tools": "../data_pack/info_tools.html",
+            "Larger Ore Veins": "../data_pack/ore_veins.html",
+            "Larger Ore Veins Deluxe": "../data_pack/ore_veins_deluxe.html",
+            "Larger Ore Veins Diamond": "../data_pack/ore_veins_diamond.html",
+            "Larger Ore Veins Nether": "../data_pack/ore_veins_nether.html"
         },
-        "Feedback": "feedback.html"
+        "Feedback": "../feedback.html"
     }
 
     
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const ANNOUNCEMENTS = document.getElementById("announcements");
     if (ANNOUNCEMENTS != null){
-        ANNOUNCEMENTS.innerHTML = `<img src="./assets/notice.png" alt="Notice" width="70" height="70" style="float:left;margin:auto">
+        ANNOUNCEMENTS.innerHTML = `<img src="../assets/notice.png" alt="Notice" width="70" height="70" style="float:left;margin:auto">
 <p> Hello! I am not great at web development. </p>
 <p> Pardon my mess as I set up my website. </p>`;
 
