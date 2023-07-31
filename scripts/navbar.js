@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Larger Ore Veins Deluxe": "../data_pack/ore_veins_deluxe.html",
       "Larger Ore Veins Diamond": "../data_pack/ore_veins_diamond.html",
       "Larger Ore Veins Nether": "../data_pack/ore_veins_nether.html"
-    },
-    "Feedback": "../feedback.html"
+    }
   }
 
   const NAVBAR = document.getElementById("navbar");
